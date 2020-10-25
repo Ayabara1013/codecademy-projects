@@ -12,7 +12,7 @@ class TrackList extends React.Component
 		if (this.props.tracks)
 		{
 			return (
-				this.props.track.map(track => {
+				this.props.tracks.map(track => {
 					return <Track
 						track={track}
 						key={track.id} />
